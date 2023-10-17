@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header h6 {
+    margin: 5px 0;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.articlecontent {
+    padding: 10px;
+}
+
+.articlecontent h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.article.big {
+    flex: 2;
+}
+
+.article.medium {
+    flex: 1;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+}
+
+.pins {
+    margin-bottom: 20px;
+}
+
+.pins img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.bottomlinks h4 {
+    font-size: 1.5em;
+}
+
+.bottomlinks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bottomlinks li {
+    margin-bottom: 5px;
+}
+
+.bottomlinks a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottomlinks a:hover {
+    text-decoration: underline;
+}
